@@ -1,0 +1,55 @@
+:root{
+    --cor-principal: #58422c;
+    --cor-secundaria: #ff8000;
+    --cor-fundo: #f7eadc;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    width: 100%;
+}
+
+.inicio h1{
+    color: var(--cor-principal);
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.inicio h2{
+    color: var(--cor-secundaria);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1%;
+}
+
+.btnIniciar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #645240;
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 2rem;
+    height: 10vh;
+    width: 30vw;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.btnIniciar:hover{
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}

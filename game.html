@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleGame.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>COR DA PALAVRA</h1>
+    </header>
+    <div id="envelope" class="envelopeGame">
+            <span id="fundoCorAtual"><label id="palavraCorAtual"></label></span>
+    </div>
+    <div class="pontuacao">
+        <p id="descricaoPontos">Pontos</p>
+        <p id="pontos">0</p>
+        <p id="vida">3</p>
+        <p id="descricaoVida">Vida</p>
+    </div>
+    <div class="listaCores">
+        <a id="cor1" onclick="verficarEscolha(1)"></a>
+        <a id="cor2" onclick="verficarEscolha(4)"></a>
+        <a id="cor3" onclick="verficarEscolha(2)"></a>
+        <a id="cor4" onclick="verficarEscolha(3)"></a>
+        <a id="cor5" onclick="verficarEscolha(7)"></a>
+        <a id="cor6" onclick="verficarEscolha(5)"></a>
+        <a id="cor7" onclick="verficarEscolha(6)"></a>
+        <a id="cor8" onclick="verficarEscolha(8)"></a>
+    </div>
+    <script src="core.js"></script>
+    <a id="home" hidden></a>
+</body>
+</html>
